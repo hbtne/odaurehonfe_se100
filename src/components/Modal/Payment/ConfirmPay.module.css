@@ -1,0 +1,127 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .dialog {
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 400px;
+    max-width: 90%;
+    padding: 24px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    animation: slideDown 0.3s ease-out;
+  }
+
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-20%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .content {
+    padding: 16px 0;
+  }
+  
+  .center {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 12px 0;
+  }
+  
+  .payment-method {
+    margin-bottom: 16px;
+  }
+  
+  .payment-method label {
+    font-size: 16px;
+    margin-left: 8px;
+    color: #444;
+  }
+  
+  .price-info {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  .total-price {
+    font-size: 18px;
+    color: #d32f2f; 
+    text-align: left;  }
+  
+  .warning {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .cancelButton,
+  .confirmButton {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancelButton {
+    background-color: #e0e0e0;
+    color: #555;
+  }
+  
+  .cancelButton:hover {
+    background-color: #bdbdbd;
+  }
+  
+  .confirmButton {
+    background-color: #6e8f8b; 
+    color: white;
+  }
+  
+  .confirmButton:hover {
+    background-color: #639666;
+  }
+  

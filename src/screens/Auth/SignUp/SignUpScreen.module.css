@@ -1,0 +1,269 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  }
+  
+  .backButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+
+  .title {
+
+  
+    position: absolute;
+    width: 600px;
+    height: 48px;
+    left: 463px;
+    top: 211px;
+    
+    /* H3 */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 110%;
+    /* or 48px */
+    
+    color: #000000;
+    
+    
+    }
+    .backIcon
+    {
+      /* ic:round-arrow-back-ios */
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 147px;
+    top: 150px;
+    color:#000000;
+    
+    }
+    
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.label {
+ 
+ /* Số điện thoại */
+
+width: 1146px;
+height: 33px;
+
+/* UI semi */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 150%;
+/* identical to box height, or 33px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+text-align: left;
+
+}
+.inputGroup:last-child {
+  margin-left:-500px; /* Giảm khoảng cách giữa 2 trường */
+}
+
+.input {
+  /* Rectangle 10 */
+
+box-sizing: border-box;
+
+width: 1146px;
+height: 66px;
+left: 0px;
+top: 39px;
+
+background: rgba(255, 255, 255, 0.5);
+border: 2px solid rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+margin-top: 10px;
+}
+
+.input1 {
+  /* Rectangle 10 */
+
+box-sizing: border-box;
+width: 500px;
+height: 66px;
+left: 0px;
+top: 0px;
+background: rgba(255, 255, 255, 0.5);
+border: 2px solid rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+margin-top: 10px;
+padding:10px;
+}
+.input2{
+  /* Rectangle 10 */
+
+box-sizing: border-box;
+width: 150px;
+height: 66px;
+left: 0px;
+top: 39px;
+background: rgba(255, 255, 255, 0.5);
+border: 2px solid rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+margin-top: 10px;
+padding:10px;
+}
+
+.input3{
+  /* Rectangle 10 */
+
+box-sizing: border-box;
+width: 700px;
+height: 66px;
+left: 0px;
+top: 39px;
+background: rgba(255, 255, 255, 0.5);
+border: 2px solid rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+margin-top: 10px;
+padding:10px;
+}
+.formContainer {
+  /* Frame 81 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 26px;
+
+position: absolute;
+width: 1146px;
+height: 403px;
+left: calc(50% - 1146px/2);
+top: 328px;
+
+
+}
+
+.cancel
+{
+  /* Frame 86 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px 22px;
+gap: 10px;
+
+width: 87px;
+height: 43px;
+
+/* C1 */
+border: 1px solid #2E6B75;
+border-radius: 28px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.paying
+{
+  /* Frame 85 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px 22px;
+gap: 10px;
+
+width: auto;
+height: 43px;
+
+/* C1 */
+background: #2E6B75;
+border-radius: 28px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-left: -500px;
+/* Thanh toán */
+
+}
+
+.textbutton
+{
+  
+
+/* UI semi */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 33px */
+display: flex;
+align-items: center;
+text-align: justify;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.confirm
+{
+  /* Frame 89 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+/* padding: 14px 38px; */
+gap: 518px;
+
+width: 1126px;
+height: 71px;
+margin-right: -877px;
+
+margin-top: 40px;
+
+}
+.row {
+  display: flex;
+  justify-content:space-between;
+      width: 100%; 
+}

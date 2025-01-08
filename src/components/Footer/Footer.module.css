@@ -1,0 +1,88 @@
+.footer {
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .center, .right {
+    flex: 1;
+  }
+  
+  .left
+  {
+    flex: 1;
+    text-align: left;
+  }
+  .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    color: #D7987D;
+  }
+  
+  .support {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .phone {
+    color: #007b7f;
+  }
+  
+  .companyName {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #007b7f;
+  }
+  
+  .sectionTitle {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .linkList {
+    list-style: none;
+    padding: 0;
+text-align: left;  
+}
+  
+  .linkList li {
+    margin-bottom: 8px;
+    margin-left: 140px;
+  }
+  
+  .linkList li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .linkList li a:hover {
+    color: #007b7f;
+  }
+  

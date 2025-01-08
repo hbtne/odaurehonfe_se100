@@ -1,0 +1,576 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.linear {
+    position: absolute;
+    width: 100%;
+    height: 410px;
+    left: 0px;
+    top: 49px;
+    background: linear-gradient(179.66deg, rgba(255, 255, 255, 0) 0.3%, #FFFFFF 99.72%);
+    z-index: 4;
+}
+
+img {
+    display: block;
+    position: absolute;
+    width: 774px;
+    height: 327px;
+    left: 363px;
+    top: 120px;
+    z-index: -10;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 4px solid #2E6B75;
+    border-radius: 20px;
+    margin-top: 380px;
+    z-index: 4;
+}
+
+.boxDatve {
+    width: 100%;
+    height: auto;
+    position: absolute; 
+    top: 330px; 
+    z-index: 10; 
+}
+
+.textDatve {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+}
+.boxTim {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height:234px;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 4;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+    width:100px;
+    padding:15px;
+}
+
+.boxKhuhoi {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Ensures the text and switch are vertically aligned */
+    justify-content: flex-start; /* Aligns the content to the left */
+    gap: 10px; 
+    height:90px;
+    width:auto;
+    margin-bottom: 220px;
+    /* background-color: #000000; */
+}
+.swap
+{
+    margin-top:50px;
+    /* background-color: #000000; */
+}
+
+.swi {
+    left: -20px;
+    top:-4px;
+    /* background-color: #000000; */
+}
+
+.fieldContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: -168px;
+    margin-top:-20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 10px;
+    
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.inputField {
+    width: 276px;
+    height:33px;
+    padding: 10px;
+    border: 1px solid #D7987D;
+    border-radius: 5px;
+    outline: none;
+}
+.inputField1 {
+    width: 143px;
+    height:33px;
+    padding: 10px;
+    
+    border: 1px solid #D7987D;
+    border-radius: 5px;
+    outline: none;
+}
+.inputField:focus {
+    border-color: #65C466;
+    box-shadow: 0 0 5px rgba(101, 196, 102, 0.5);
+}
+
+.buttonContainer {
+    position: absolute; 
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    top:245px;
+}
+
+.searchButton {
+    width: 345px;
+height: 63px;
+    background-color: #2E6B75;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 28px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.searchButton:hover {
+    background-color: #1D4D5B;
+}
+.filterSection {
+    width: 20%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.filterSection h3 {
+    /* Lọc */
+
+position: absolute;
+width: 50px;
+height: 31px;
+left: 29px;
+top: 932px;
+
+/* H4 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 110%;
+/* identical to box height, or 31px */
+
+color: #000000;
+
+
+}
+
+.timeRangeContainer {
+    /* Frame 132 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 40px 81px;
+gap: 28px;
+
+position: absolute;
+width: 330px;
+height: 321px;
+left: 30px;
+top: 999px;
+
+background: rgba(255, 255, 255, 0.5);
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+}
+
+.timeRangeContainer label {
+    margin-bottom: 10px;
+}
+
+/* Container styles */
+
+/* Filter section styles */
+
+
+
+.timeRangeContainer {
+  /* background-color: #000000; */
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #666;
+    width: 151px;
+    height: 270px;
+}
+
+.timeRangeContainer label {
+    margin-bottom: 10px;
+}
+
+/* Schedule section styles */
+.scheduleSection {
+/* Frame 59 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+gap: 36px;
+
+position: absolute;
+width: 1029px;
+height: 766px;
+left: 270px;
+top: 989px;
+overflow-y: scroll;
+
+
+}
+
+.scheduleSection h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Schedule card styles */
+.scheduleCard {
+   /* Chọn chuyến đi */
+
+box-sizing: border-box;
+
+width: 1009px;
+height: 205px;
+
+background: rgba(255, 255, 255, 0.5);
+border: 2px solid rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.timeInfo {
+ 
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 166px;
+height: 73px;
+left: 24px;
+margin-top: 43px;
+
+
+}
+.timeInfo1
+{
+    /* Frame 54 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 167px;
+height: 73px;
+margin-left: 624px;
+margin-top: -73px;
+
+
+}
+.time {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    
+}
+
+.station {
+    font-size: 14px;
+    color: #666;
+}
+
+.duration {
+    /* 4 giờ */
+
+position: absolute;
+width: auto;
+height: 39px;
+margin-top: -80px;
+margin-left: 350px;
+/* P1 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 39px */
+
+color: #000000;
+
+
+}
+
+.seatsAndPrice {
+  /* Frame 56 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 6px;
+
+width: 186px;
+height: 66px;
+margin-left: 765px;
+margin-top: -80px;
+}
+
+.price {
+    color: #e67373;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.selectButton {
+   /* Frame 57 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 50px;
+gap: 10px;
+
+width: 247px;
+height: 46px;
+margin-left:750px;
+margin-top: 37px;
+
+background: #92C3BE;
+border-radius: 33px;
+/* Chọn chuyến */
+border-color:#92C3BE ;
+
+/* H5 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 110%;
+/* or 26px */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.selectButton:hover {
+    background-color: #89acac;
+}
+
+.diemdi
+{
+    /* Rectangle 19 */
+
+width: 24px;
+height: 24px;
+color: #2E6B75;
+
+
+}
+
+.diemden
+{
+    /* Rectangle 19 */
+
+width: 24px;
+height: 24px;
+color: #D7987D;
+}
+
+.diden
+{
+    display:flex;
+    flex-direction: row;
+    margin-top: -40px;
+    margin-left: 140px;
+}
+
+.bg
+{
+    /* Ellipse 1 */
+
+position: absolute;
+width: 789px;
+height: 508px;
+left: -61px;
+top: 669px;
+
+background: conic-gradient(from 180deg at 50% 50%, #FFFFFF -60.57deg, #FFFFFF 7.7deg, #92C3BE 126.1deg, #F9DED4 249.34deg, #FFFFFF 299.43deg, #FFFFFF 367.7deg);
+filter: blur(100px);
+
+    z-index: -40;
+}
+
+.bg2
+{
+    /* Ellipse 2 */
+
+position: absolute;
+width: 1268px;
+height: 668px;
+left: 149px;
+top: 1457px;
+
+background: conic-gradient(from 180deg at 50% 50%, #F9DED4 -28.94deg, rgba(215, 152, 125, 0.41) 54.41deg, #FFFFFF 117.54deg, #FFFFFF 174.65deg, rgba(146, 195, 190, 0.59) 229.53deg, #F9DED4 331.06deg, rgba(215, 152, 125, 0.41) 414.41deg);
+filter: blur(100px);
+border-radius: 295.5px;
+z-index: -40;
+}
+
+.titleLoc
+{
+    /* Lọc */
+
+position: absolute;
+width: 50px;
+height: 31px;
+left: 29px;
+top: 932px;
+
+/* H4 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 110%;
+/* identical to box height, or 31px */
+
+color: #000000;
+
+
+}
+.tilteTenchuyen
+{
+    /* TP. Hồ Chí Minh - Thốt Nốt */
+
+position: absolute;
+width: 382px;
+height: 31px;
+left: 380px;
+top: 935px;
+
+/* H4 */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 110%;
+/* identical to box height, or 31px */
+
+color: #000000;
+
+
+}
+.labelcheckboxx1
+{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 151px;
+height: 33px;
+left: 963px;
+top: 941px;
+}
+.labelcheckboxx2
+{
+    /* Frame 20 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 155px;
+height: 33px;
+left: 1165px;
+top: 941px;
+
+
+}
+.checkbox1
+{
+    /* Frame 19 */
+
+/* Auto layout */
+/* Rectangle 7 */
+
+box-sizing: border-box;
+
+background: #FFFFFF;
+/* C5 */
+border: 2px solid #D7987D;
+border-radius: 30px;
+
+
+}

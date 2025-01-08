@@ -1,0 +1,319 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .resultContainer
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 26px;
+    
+    position: absolute;
+    width: 1146px;
+    height: 403px;
+    left: calc(50% - 1146px/2);
+    top: 328px;
+    
+  }
+
+  .buttonLookup
+  {
+ 
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 59px;
+gap: 10px;
+width: auto;
+height: 60px;
+/* background-color: #D7987D; */
+color:#ffffff;
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin-top: 600px;
+  }
+  
+
+
+  .title {
+
+  
+  position: absolute;
+  width: 600px;
+  height: 48px;
+  left: 463px;
+  top: 211px;
+  
+  /* H3 */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 110%;
+  /* or 48px */
+  
+  color: #000000;
+  
+  
+  }
+  
+  .formContainer {
+    /* Frame 81 */
+  
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 26px;
+  
+  position: absolute;
+  width: 1146px;
+  height: 403px;
+  left: calc(50% - 1146px/2);
+  top: 328px;
+  
+  
+  }
+  
+  .sectionTitle {
+    /* Thông tin khách hàng */
+  
+  width: 1146px;
+  height: 31px;
+  
+  /* H4 */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 110%;
+  /* identical to box height, or 31px */
+  
+  color: #000000;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .label {
+   
+   /* Số điện thoại */
+  
+  width: 1146px;
+  height: 33px;
+  
+  /* UI semi */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  /* identical to box height, or 33px */
+  
+  color: #000000;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  text-align: left;
+  
+  }
+  
+  .input {
+    /* Rectangle 10 */
+  
+  box-sizing: border-box;
+  
+  width: 1146px;
+  height: 66px;
+  left: 0px;
+  top: 39px;
+  
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  margin-top: 10px;
+  }
+  
+  .bg
+  {
+      /* Ellipse 1 */
+  
+  /* Ellipse 1 */
+  
+  position: absolute;
+  width: 789px;
+  height: 508px;
+  left: -68px;
+  top: 318px;
+  
+  background: conic-gradient(from 180deg at 50% 50%, #FFFFFF -60.57deg, #FFFFFF 7.7deg, #92C3BE 126.1deg, #F9DED4 249.34deg, #FFFFFF 299.43deg, #FFFFFF 367.7deg);
+  filter: blur(100px);
+  z-index: -40;
+  }
+  
+  .backIcon
+  {
+    /* ic:round-arrow-back-ios */
+  
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 147px;
+  top: 150px;
+  color:#000000;
+  
+  }
+  .text{
+    /* Giá lượt đi: */
+  
+  width: auto;
+  height: 26px;
+  
+  /* H5 */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 110%;
+  /* or 26px */
+  
+  color: #000000;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  text-align: left;
+  }
+  
+  
+  
+  .textbutton
+  {
+    
+  
+  /* UI semi */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 33px */
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+
+
+.resultContainer {
+/* Frame 178 */
+/* 
+box-sizing: border-box;
+
+gap: 3px;
+
+width: 913px;
+height: auto;
+border: 1px solid rgba(0, 0, 0, 0.25);
+border-radius: 15px; */
+
+/* Inside auto layout */
+margin-top: 100px;
+margin-left: -180px;
+}
+.filter
+{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 30px;
+margin-top: 300px;
+}
+
+.resultTitle {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.tablerow
+{
+  cursor: pointer;
+}
+.tablerow:hover {
+  background: #92C3BE;
+}
+.ticketDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto; 
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.label {
+  font-weight: bold;
+  flex: 1; 
+}
+
+.value {
+  flex: 1;
+  text-align: right; 
+}
+.cancelButton {
+  margin-top: 10px;
+  margin-right: 100px;
+  border-radius: 25px;
+  
+}
+.conbut
+{
+    display: flex;
+    flex-direction: rơw;
+}
